@@ -98,7 +98,7 @@ class Anggota extends CI_Controller{
         );
 
         $this->anggota_m->update_data($where,$data,'tbl_anggota');
-        $this->session->set_flashdata('message', '<div class="alert alert-primary alert-dismissible" role="alert">
+        $this->session->set_flashdata('message', '<div class="alert alert-info alert-dismissible" role="alert">
             <button type="button" class="close" data-dismiss="alert"
               aria-label="Close"><span aria-hidden="true">&times;</span></button>
               Data Berhasil Diupdate!
