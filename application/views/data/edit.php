@@ -16,19 +16,19 @@
 			<div class="form-group">
 				<label>Kelas</label>
 				<select class="form-control" name="kelas" value="<?php echo $anggota->kelas ?>">
-                <option>X MIPA</option>
-                <option>X IPS.1</option>
-                <option>X IPS.2</option>
-                <option>X BB</option>
-                <option>XI MIPA</option>
-                <option>XI IPS.1</option>
-                <option>XI IPS.2</option>
-                <option>XI BB</option>
-                <option>XII MIPA</option>
-                <option>XII IPS.1</option>
-                <option>XII IPS.2</option>
-                <option>XII BB</option>
-              </select>
+	                <option>X MIPA</option>
+	                <option>X IPS.1</option>
+	                <option>X IPS.2</option>
+	                <option>X BB</option>
+	                <option>XI MIPA</option>
+	                <option>XI IPS.1</option>
+	                <option>XI IPS.2</option>
+	                <option>XI BB</option>
+	                <option>XII MIPA</option>
+	                <option>XII IPS.1</option>
+	                <option>XII IPS.2</option>
+	                <option>XII BB</option>
+              	</select>
 			</div>
 			<div class="form-group">
 				<label>Alamat</label>
