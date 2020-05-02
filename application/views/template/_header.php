@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>PERPUSTAKAAN</title>
+  <title>Dashboard | Sistem Informasi Perpustakaan</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -88,7 +88,8 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
           <li class="treeview">
-          <li><a href="<?php echo base_url ('dashboard/index') ?>"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            <li><a href="<?php echo base_url ('dashboard/index') ?>"><i class="fa fa-dashboard"></i><span> Dashboard</span></a>
+            </li>
           </li>
         <li class="treeview">
           <a href="#">
@@ -127,7 +128,8 @@
             <li><a href="<?php echo base_url('pengembalian/index') ?>"><i class="fa fa-circle-o"></i> Pengembalian</a></li>  
           </ul>
           <li class="treeview">
-          <li><a href="<?php echo base_url ('auth/index') ?>"><i class="fa fa-sign-out"></i> Logout</a></li>
+            <li><a href="<?php echo base_url ('auth/index') ?>"><i class="fa fa-sign-out"></i><span> Logout</span></a>
+            </li>
           </li>
         </li>
       </ul>
